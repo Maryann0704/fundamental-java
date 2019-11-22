@@ -1,9 +1,12 @@
-package by.it.narushevich.jd01_03;
+/* Реализуйте класс by.it.familiya.jd01_03.Runner, в котором проверьте все разработанные методы
+(проверьте ввод-вывод одномерных массивов, проверьте сортировку и поиск минимума/максимумав
+одномерном массиве, операции матричного умножения). */
 
+package by.it.narushevich.jd01_03;
 
 import java.util.Scanner;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) {
 
         System.out.println("Введите строку чисел: ");
@@ -32,7 +35,7 @@ public class Runner {
         double[] vector = InOut.createArray(3);
 
         System.out.println("\n" + "Результирующий вектор: ");
-        double[] resultVector = Helper.mul(matrix, vector);
+        Helper.mul(matrix, vector);
 
         System.out.println("\n" + "\n" + "Исходная матрица 1: ");
         double[][] matrixLeft = InOut.createMatrix(2, 3);
@@ -41,6 +44,6 @@ public class Runner {
         double[][] matrixRight = InOut.createMatrix(3, 2);
 
         System.out.println("\n" + "Результат произведения матрицы 1 на матрицу 2: ");
-        double[][] mulMatrix = Helper.mul(matrixLeft, matrixRight);
+        Helper.mul(matrixLeft, matrixRight);
     }
 }

@@ -1,3 +1,17 @@
+/* Реализуйте статические методы для поиска минимального и максимального значения
+в одномерном массиве для типа double. Реализуйте статические методы для сортировки
+по возрастанию одномерных массивов типа double.
+Сигнатуры:  static double findMin(double[ ] arr)
+            static double findMax(double[ ] arr)
+            static void sort(double[ ] arr)
+
+Реализуйте умножение матрицы на вектор, матрицы на матрицу для типа double.
+Сигнатуры:  static double[ ] mul(double[ ][ ] matrix, double[ ] vector)
+            static double[ ][ ] mul(double[ ][ ] matrixLeft, double[ ][ ] matrixRight)
+Разместите эти методы в классе by.it.familiya.jd01_03.Helper.
+Добавьте JavaDoc к разработанным методам
+*/
+
 package by.it.narushevich.jd01_03;
 
 class Helper {

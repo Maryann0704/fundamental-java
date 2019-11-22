@@ -1,6 +1,14 @@
+/* Реализуйте статические методы ввода и простого/форматного вывода
+для одномерных массивов типа double. Разместите эти методы в классе by.it.familiya.jd01_03.InOut
+Сигнатурадля ввода: static double[ ] getArray(String line)
+Сигнатуры для вывода: static void printArray(double[ ] arr) (используйте System.out.print)
+( а тут printf)       static void printArray(double[ ] arr, String name, int columnCount)
+Добавьте JavaDoc к разработанным методам
+*/
+
 package by.it.narushevich.jd01_03;
 
-public class InOut {
+class InOut {
 
     /**
      * @param line вводится с клавиатуры
