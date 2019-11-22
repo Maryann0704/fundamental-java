@@ -1,3 +1,5 @@
+/* Напишите в пакете by.it.фамилия.jd01_05класс TaskA, который решает задачи: см. рис. TaskA.png */
+
 package by.it.narushevich.jd01_05;
 
 import static java.lang.Math.*;
